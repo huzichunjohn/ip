@@ -1,0 +1,5 @@
+acl {{ name }} {
+{%- for prefix in prefixes %}
+    {{ prefix }};
+{%- endfor %}
+};
